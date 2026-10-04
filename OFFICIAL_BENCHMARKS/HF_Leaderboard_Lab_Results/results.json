@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_PYGEOM",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "pyg-team/pytorch_geometric",
+  "commit": "79d33965a40b",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 144.14,
+      "min": 81.67,
+      "max": 270.41,
+      "all": [
+        270.41,
+        168.04,
+        117.6,
+        82.98,
+        81.67
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_PYGEOM (pyg-team/pytorch_geometric) \u2014 1548 files, 192074 source lines, licence MIT, primary language ['Python']",
+      "token_count": 43,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "p",
+        "##y",
+        "##ge",
+        "##om",
+        "(",
+        "p",
+        "##y",
+        "##g",
+        "-",
+        "team",
+        "/",
+        "p",
+        "##yt",
+        "##or",
+        "##ch",
+        "_",
+        "geometric"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5936,
+      "classification_latency_ms": 342.39,
+      "status": "PASS"
+    }
+  }
+}

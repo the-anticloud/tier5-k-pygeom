@@ -1,0 +1,28 @@
+{
+  "benchmark": "MLPerf_Lab_Results",
+  "project": "K_PYGEOM",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "pyg-team/pytorch_geometric",
+  "commit": "79d33965a40b",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "MLPerf Inference v5.1 (MLCommons) \u2014 proxy",
+    "source": "https://mlcommons.org/benchmarks/inference-datacenter/",
+    "note": "Full MLPerf requires datacenter GPU. Proxy: TTFT + throughput on CPU distilbert.",
+    "ttft_ms": {
+      "p50": 41.48,
+      "p99": 41.48,
+      "avg": 38.24
+    },
+    "throughput_samples_per_sec": 26.2,
+    "scenario": "SingleStream (CPU)",
+    "status": "PASS"
+  }
+}

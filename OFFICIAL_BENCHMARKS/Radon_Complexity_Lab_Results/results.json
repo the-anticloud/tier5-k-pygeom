@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_PYGEOM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 1.9275362318840579
+    },
+    "complexity_grade": "A",
+    "complexity_score": 1.9275362318840579,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py\n    F 47:0 test - A (2)\n    C 16:0 Net - A (2)\n    F 39:0 train - A (1)\n    M 17:4 Net.__init__ - A (1)\n    M 24:4 Net.forward - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\argva_node_clustering.py\n    F 70:0 train - A (2)\n    F 121:0 plot_points - A (2)\n    C 35:0 Encoder - A (2)\n    C 47:0 Discriminator - A (2)\n    F 91:0 test - A (1)\n    M 36:4 Encoder.__init__ - A (1)\n    M 42:4 Encoder.forward - A (1)\n    M 48:4 Discriminator.__init__ - A (1)\n    M 54:4 Discriminator.forward - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\arma.py\n    F 56:0 test - A (2)\n    C 16:0 Net - A (2)\n    F 47:0 train - A (1)\n    M 17:4 Net.__init__ - A (1)\n    M 27:4 Net.forward - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\ar_link_pred.py\n    F 129:0 main - B (7)\n    C 13:0 GCNEncoder - A (2)\n    C 24:0 LinkPredictor - A (2)\n    C 37:0 ARLinkPredictor - A (2)\n    F 59:0 train - A (1)\n    F 93:0 test - A (1)\n    F 115:0 compute_auc - A (1)\n    M 14:4 GCNEncoder.__init__ - A (1)\n    M 19:4 GCNEncoder.forward - A (1)\n    M 25:4 LinkPredictor.__init__ - A (1)\n    M 30:4 LinkPredictor.forward - A (1)\n    M 38:4 ARLinkPredictor.__init__ - A (1)\n    M 44:4 ARLinkPredictor.forward - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTR",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\benchmark\\setup.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py - A (53.47)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\argva_node_clustering.py - A (50.67)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\arma.py - A (50.81)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NE"
+  }
+}

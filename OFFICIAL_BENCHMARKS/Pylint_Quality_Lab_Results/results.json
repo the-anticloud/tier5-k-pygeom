@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "K_PYGEOM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 5.56,
+    "pylint_score_max": 10.0,
+    "status": "PARTIAL",
+    "raw_output": "************* Module setup\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\benchmark\\setup.py:1:0: C0114: Missing module docstring (missing-module-docstring)\n************* Module agnn\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:6:0: E0401: Unable to import 'torch_geometric.transforms' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:7:0: E0401: Unable to import 'torch_geometric.datasets' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:8:0: E0401: Unable to import 'torch_geometric.nn' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:16:0: C0115: Missing class docstring (missing-class-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:47:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\agnn.py:60:4: W0632: Possible unbalanced tuple unpacking with sequence defined at line 49: left side has 3 labels, right side has 0 values (unbalanced-tuple-unpacking)\n************* Module argva_node_clustering\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\argva_node_clustering.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\argva_node_clustering.py:3:0: E0401: Unable to import 'matplotlib.pyplot' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM\\examples\\argva_node_clustering.py:5:0: E0401: Unable to import 'sklearn.cluster' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_PYGEOM\\UPSTREAM"
+  }
+}
